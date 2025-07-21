@@ -1,13 +1,15 @@
-# Sample Hardhat Project
+# Contador - Atividade Avaliativa P2
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+Este projeto foi desenvolvido como parte da Atividade Avaliativa P2 para a disciplina de Desenvolvimento em Blockchain e Web3.
 
-Try running some of the following tasks:
+O objetivo foi criar uma aplicação descentralizada (DApp) simples que interage com um contrato inteligente na blockchain para adicionar, subtrair e zerar um contador.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
-```
+## Demonstração
+
+Demonstração do funcionamento da aplicação:
+A aplicação:
+- Permite `adicionar` ou `subtrair` `1` no contador por vez;
+- Permite `zerar` o contador;
+- Ao atingir `10` no contador, aparece a mensagem: `Parabéns! Você atingiu 10 adições.`.
+
+![Demonstração do DApp Contador](./demonstracao/Demo%20funcionamento.gif)
