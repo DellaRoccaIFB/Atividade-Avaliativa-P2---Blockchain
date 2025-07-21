@@ -7,6 +7,7 @@ O objetivo foi criar uma aplicação descentralizada (DApp) simples que interage
 ## Demonstração
 
 Demonstração do funcionamento da aplicação:
+
 A aplicação:
 - Permite `adicionar` ou `subtrair` `1` no contador por vez;
 - Permite `zerar` o contador;
